@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10">
+    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
       <div>
         <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
           BENZ.
@@ -43,9 +43,9 @@ const Navbar = () => {
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-10">
         {nav ? (
-          <AiOutlineClose className="text-black" size={20} />
+          <AiOutlineClose className="text-white" size={20} />
         ) : (
-          <HiOutlineMenuAlt4 className="text-black" size={20} />
+          <HiOutlineMenuAlt4 className="text-white" size={20} />
         )}
       </div>
 
