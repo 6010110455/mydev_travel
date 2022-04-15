@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Destinations from "./components/Destinations";
+import Selects from "./components/Selects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Destinations />
+      <Selects />
     </div>
   );
 }
